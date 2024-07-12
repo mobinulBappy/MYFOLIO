@@ -1,0 +1,805 @@
+/* *COMMON CSS STARTS */
+.button{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    padding: 18px 42px; 
+    color: #161c16;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.heading h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+}
+/* *COMMON CSS ENDS */
+
+
+
+/* *NAVBER STARTS*/
+#nav{
+    background-color: #02918b;
+}
+#nav .menu ul li{
+    text-align: right;
+}
+ #nav .menu ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 26px 25px;
+    display: inline-block;
+ }
+ /* *NAVBER ENDS*/
+
+ /* *BANNER SECTION STARTS*/
+ #banner{
+    background-image: url(../image/MYFOLIO\ \(1\).jpg);
+    height: 727px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .banner-cnt{ 
+    text-align: center;
+    height: 727px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+#banner .banner-cnt h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner .banner-cnt h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+}
+#banner .banner-cnt p{
+    font-size: 18px;
+    font-weight: 400;
+}
+#banner .banner-cnt img{
+    margin: 51px 0;
+}
+/* LG-Device */
+    @media(min-width:992px) and (max-width:1199.98px){
+        #banner{
+            height: 675px;
+        }
+        #banner .banner-cnt{ 
+            height: 675px;
+        }
+        #banner .banner-cnt h1{
+            font-size: 55px;
+            letter-spacing: 25px;
+        }
+    }
+    /* Md-Device */
+    @media(min-width:768px) and (max-width:991.98px){
+        #banner{
+            height: 560px;
+        }
+        #banner .banner-cnt{ 
+            height: 560px;
+        }
+        #banner .banner-cnt h4{
+            font-size: 22px;
+        }
+        #banner .banner-cnt h1{
+            font-size: 45px;
+            letter-spacing: 17px;
+        }
+        #banner .banner-cnt p{
+            font-size: 14px;
+        }
+        #banner .banner-cnt img{
+            margin: 40px 0;
+        }
+        #banner .button{
+             padding: 15px 38px; 
+        }
+    }
+   /* Ms-Device */
+   @media(min-width:576px) and (max-width:767.98px){
+    #banner{
+        height: 430px;
+    }
+    #banner .banner-cnt{ 
+        height: 430px;
+    }
+    #banner .banner-cnt h4{
+        font-size: 18px;
+    }
+    #banner .banner-cnt h1{
+        font-size: 38px;
+        letter-spacing: 11px;
+    }
+    #banner .banner-cnt p{
+        font-size: 11px;
+    }
+    #banner .banner-cnt img{
+        margin: 35px 0;
+        width: 90px;
+    }
+    #banner .banner-cnt .button{
+        font-size: 12px;
+        padding: 15px 35px; 
+    }
+}
+   /* xs-Device */
+   @media(max-width:575.98px){
+    #banner{
+        height: 250px;
+    }
+    #banner .banner-cnt{ 
+        height: 250px;
+    }
+    #banner .banner-cnt h4{
+        font-size: 9px;
+    }
+    #banner .banner-cnt h1{
+        font-size: 18px;
+        letter-spacing: 7px;
+    }
+    #banner .banner-cnt p{
+        font-size: 7px;
+    }
+    #banner .banner-cnt img{
+        margin: 23px 0;
+        width: 60px;
+    }
+    #banner .banner-cnt .button{
+        font-size: 10px;
+        padding: 10px 25px; 
+    }
+}
+/* *BANNER SECTION ENDS*/
+
+
+
+/* *ABOUT SECTION STARTS*/
+#about{
+    margin: 97px 0px;
+}
+#about .heading{
+    text-align: center;
+    padding: 0 170px;
+    line-height: 41px;
+}
+#about .heading h2{
+    margin-bottom: 34px;
+}
+#about .heading p strong{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+#about .about-card{
+    text-align: center;
+    border-right: 2px solid hsl(214, 10%, 86%);
+    padding: 39px 63px 54px 63px;
+    margin-top: 113px;
+}
+#about .about-card:nth-child(4){
+    border-right: none;
+}
+#about .about-card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 20px 0;
+}
+#about .about-card p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 21px;
+}
+/* LG-Device */
+@media(min-width:992px) and (max-width:1199.98px){
+    #about .heading{
+        padding: 0 90px;
+        line-height: 20px;
+    }
+    #about .heading h2{
+        margin-bottom: 20px;
+        font-size: 43px;
+    }
+    #about .heading p strong{
+        font-size: 20px;
+    }
+    #about .heading p{
+        font-size: 14px;
+        line-height: 35px;
+    }
+    #about .about-card{
+        padding: 35px 45px 47px 40px;
+        margin-top: 90px;   
+    }
+    #about .about-card h4{
+        font-size: 14px;
+        padding: 15px 0;
+    }
+    #about .about-card p{
+        font-size: 11px;
+        line-height: 19px;
+    }
+}
+/* MD-Device */
+@media(min-width:768px) and (max-width:991.98px){
+    #about .heading{
+        padding: 0 50px;
+        line-height: 17px;
+    }
+    #about .heading h2{
+        margin-bottom: 15px;
+        font-size: 41px;
+    }
+    #about .heading p strong{
+        font-size: 16px;
+    }
+    #about .heading p{
+        font-size: 11px;
+        line-height: 24px;
+    }
+    #about .about-card{
+        padding: 35px 0px 47px 0px;
+        margin-top: 70px; 
+    }
+    #about .about-card:nth-child(2){
+        border-right: none;
+    }
+    #about .about-card h4{
+        font-size: 16px;
+        padding: 15px 0;
+    }
+    #about .about-card p{
+        font-size: 11px;
+        line-height: 17px;
+        padding: 0px 100px;
+    }
+}
+/* SM-Device */
+@media(min-width:576px) and (max-width:767.98px){
+    #about{
+        margin: 80px 0px;
+    }
+    #about .heading h2{
+        margin-bottom: 12px;
+        font-size: 36px;
+    }
+    #about .heading p strong{
+        font-size: 10px;
+    }
+    #about .heading{
+        padding: 0 10px;
+        line-height: 17px;
+    }
+    #about .heading p{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    #about .about-card{
+        padding: 30px 0px 45px 0px;
+        margin-top: 70px; 
+    }
+    #about .about-card:nth-child(2){
+        border-right: none;
+    }
+    #about .about-card h4{
+        font-size: 16px;
+        padding: 13px 0;
+    }
+    #about .about-card p{
+        font-size: 11px;
+        line-height: 16px;
+        padding: 0px 50px;
+    }
+}
+/* XS-Device */
+@media(max-width:575.98px){
+    #about{
+        margin: 65px 0px;
+    }
+    #about .heading h2{
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+    #about .heading p strong{
+        font-size: 11px;
+    }
+    #about .heading{
+        padding: 0 20px;
+        line-height: 18px;
+    }
+    #about .heading p{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    #about .about-card{
+        padding: 10px 0px;
+        margin-top: 30px; 
+    }
+    #about .about-card{
+        border-right: none;
+    }
+    #about .about-card p{
+        padding: 0px 100px;
+        font-size: 11px;
+    }
+}
+/* *ABOUT SECTION ENDS*/
+
+
+
+/* * SERVICES SECTION STARTS*/
+#services{
+    background-image: url(../image/MYFOLIO\ \(5\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+#services .heading{
+    width: 50%;
+    padding: 0px 80px 0px 45px;
+}
+#services .heading h2{
+    margin-bottom: 30px;
+}
+#services .row{
+    width: 50%;
+}
+#services .services-card{
+    padding: 40px 110px 0px 30px;
+}
+#services .services-card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 13px 0px;
+}
+#services .services-card p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 21px;
+}
+/* LG-Device */
+@media(min-width:992px) and (max-width:1199.98px){
+    #services .heading{
+        padding: 0 10px;
+    }
+    #services .heading h2{
+        margin-bottom: 25px;
+    }
+    #services .services-card{
+        padding: 40px 30px 0px 40px;
+    }
+}
+/* MD-Device */
+@media(min-width:768px) and (max-width:991.98px){
+    #services{
+        padding: 40px 0px;
+    }
+    #services .heading p{
+        font-size: 12px;
+        line-height: 23px;
+    }
+    #services .heading h2{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    #services .heading{
+        padding: 0 0px;
+        text-align: left;
+    }
+    #services .services-card{
+        padding: 20px 0px 0px 12px;
+        text-align: left;
+    }
+    #services .services-card h4{
+        font-size: 14px;
+        padding: 8px 0px;
+    }
+    #services .services-card p{
+        font-size: 10px;
+        line-height: 17px;
+    }
+}
+/* SM-Device */
+@media(min-width:576px) and (max-width:767.98px){
+    #services{
+        padding: 30px 0px;
+    }
+    #services .heading p{
+        font-size: 9px;
+        line-height: 18px;
+    }
+    #services .heading h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    #services .heading{
+        padding: 0 0px;
+        text-align: left;
+    }
+    #services .services-card{
+        padding: 13px 100px 0px 15px;
+        text-align: left;
+    }
+    #services .services-card h4{
+        font-size: 12px;
+        padding: 8px 0px;
+    }
+    #services .services-card p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+}
+/* XS-Device */
+@media(max-width:575.98px){
+    #services{
+        padding: 30px 0px;
+    }
+    #services .heading p{
+        font-size: 9px;
+        line-height: 18px;
+    }
+    #services .heading h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    #services .heading{
+        padding: 0 0px;
+        text-align: left;
+    }
+    #services .services-card{
+        padding: 13px 50px 0px 15px;
+        text-align: left;
+    }
+    #services .services-card h4{
+        font-size: 10px;
+        padding: 6px 0px;
+    }
+    #services .services-card p{
+        font-size: 9px;
+        line-height: 13px;
+    }
+}
+/* * SERVICES SECTION ENDS*/
+
+
+/* *MYWORK SECTION STARTS*/
+#mywork{
+    padding: 95px 0px;
+}
+#mywork .heading{
+    text-align: center;
+    margin: 0px 245px;
+    padding-bottom: 74px;
+}
+#mywork .mywork_card{
+    width: 25%;
+    position: relative;
+}
+#mywork .mywork_card img{
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+#mywork .mywork_card .overlay{
+    position: absolute;
+    inset: 20px 28px;
+    background-color: rgba(2, 145, 140, 0.85);
+    transform: scale(0) skew(60deg);
+    transition: .5s;
+    transform-origin: right top;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+#mywork .mywork_card .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-bottom: 16px;
+}
+#mywork .mywork_card .overlay p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 21px;
+    padding: 0px 6px;
+}
+#mywork .mywork_card:hover .overlay{
+    transform: scale(1);
+}
+/* LG-Device */
+@media(min-width:992px) and (max-width:1199.98px){
+    #mywork{
+        padding: 95px 0px;
+    }
+    #mywork .heading{
+        text-align: center;
+        margin: 0px 160px;
+        padding-bottom: 65px;
+    }
+    #mywork .heading p{
+        line-height: 35px;
+        font-size: 15px;
+    }
+}
+/* *MD Device */
+@media(min-width:768px) and (max-width:991.98px){
+    #mywork .mywork_card{
+        width: 33.33%;
+        position: relative;
+    }
+    #mywork{
+        padding: 95px 0px;
+    }
+    #mywork .heading{
+        text-align: center;
+        margin: 0px 110px;
+        padding-bottom: 65px;
+    }
+    #mywork .heading p{
+        line-height: 30px;
+        font-size: 13px;
+    }
+}
+/* *SM Device */
+@media(min-width:576px) and (max-width:767.98px){
+    #mywork .mywork_card{
+        width: 50%;
+        position: relative;
+    }
+    #mywork{
+        padding: 70px 0px;
+    }
+    #mywork .heading{
+        text-align: center;
+        margin: 0px 50px;
+        padding-bottom: 50px;
+    }
+    #mywork .heading p{
+        line-height: 25px;
+        font-size: 11px;
+    }
+}
+/* *XS Device */
+@media(max-width:575.98px){
+    #mywork .heading h2{
+        font-size: 38px;
+    }
+    #mywork .mywork_card{
+        width: 80%;
+        margin: 0 50px;
+        position: relative;
+    }
+    #mywork{
+        padding: 70px 0px;
+    }
+    #mywork .heading{
+        text-align: center;
+        margin: 0px 50px;
+        padding-bottom: 50px;
+    }
+    #mywork .heading p{
+        line-height: 25px;
+        font-size: 11px;
+    }
+}
+/* *MYWORK SECTION ENDS*/
+
+
+
+/* *CONTACT SECTION STARTS*/
+#contact .heading{
+    text-align: center;
+    padding-bottom: 74px;
+}
+#contact .heading p{
+    padding: 0 237px;
+}
+#contact .contact_form{
+    background-color: #0a0a0b;
+    padding: 69px 0px;
+}
+#contact .contact_form input{
+    display: block;
+    margin: auto;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    color: #7e8287;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px;
+    margin-bottom: 49px;
+    transition: .4s;
+}
+#contact .contact_form input:focus{
+    border-bottom-color: #02918c;
+}
+#contact .contact_form input:nth-child(1),
+#contact .contact_form input:nth-child(2){
+    width: 634px;
+}
+#contact .contact_form input:nth-child(3),
+#contact .contact_form input:nth-child(4){
+    width: 922px;
+}
+#contact .contact_form button{
+    border: none;
+    cursor: pointer;
+    padding: 16px 64px;
+}
+#contact .contact_last{
+    background-color: #000000;
+}
+#contact .contact_last h6{
+    color: #7e8287;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 31px 0px;
+}
+/* LG-Device */
+@media(min-width:992px) and (max-width:1199.98px){
+    #contact .heading{
+        padding-bottom: 74px;
+    }
+    #contact .heading p{
+        padding: 0 180px;
+        font-size: 14px;
+    }
+    #contact .contact_form{
+        padding: 60px 0px;
+    }
+    #contact .contact_form input{
+        font-size: 16px;
+        padding: 18px;
+        margin-bottom: 40px;
+    }
+    #contact .contact_form input:nth-child(1),
+    #contact .contact_form input:nth-child(2){
+        width: 600px;
+    }
+    #contact .contact_form input:nth-child(3),
+    #contact .contact_form input:nth-child(4){
+        width: 850px;
+    }
+}
+/* MD-Device */
+@media(min-width:768px) and (max-width:991.98px){
+    #contact .heading{
+        padding-bottom: 55px;
+    }
+    #contact .heading h2{
+        font-size: 40px;
+    }
+    #contact .heading p{
+        padding: 0 120px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    #contact .contact_form{
+        padding: 50px 0px;
+    }
+    #contact .contact_form input{
+        font-size: 15px;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    #contact .contact_form input:nth-child(1),
+    #contact .contact_form input:nth-child(2){
+        width: 500px;
+    }
+    #contact .contact_form input:nth-child(3),
+    #contact .contact_form input:nth-child(4){
+        width: 700px;
+    }
+    #contact .contact_form button{
+            padding: 15px 48px; 
+    }
+    #contact .contact_last h6{
+        font-size: 11px;
+        padding: 28px 0px;
+    }
+}
+/* MD-Device */
+@media(min-width:576px) and (max-width:775.98px){
+    #contact .heading{
+        padding-bottom: 55px;
+    }
+    #contact .heading h2{
+        font-size: 35px;
+    }
+    #contact .heading p{
+        padding: 0 40px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    #contact .contact_form{
+        padding: 40px 0px;
+    }
+    #contact .contact_form input{
+        font-size: 14px;
+        padding: 13px;
+        margin-bottom: 20px;
+    }
+    #contact .contact_form input:nth-child(1),
+    #contact .contact_form input:nth-child(2){
+        width: 350px;
+    }
+    #contact .contact_form input:nth-child(3),
+    #contact .contact_form input:nth-child(4){
+        width: 520px;
+    }
+    #contact .contact_form button{
+        padding: 13px 50px;
+    }
+    #contact .contact_last h6{
+        font-size: 10px;
+        padding: 26px 0px;
+    }
+}
+/* XS-Device */
+@media(max-width:575.98px){
+    #contact .heading{
+        padding-bottom: 40px;
+    }
+    #contact .heading h2{
+        font-size: 30px;
+    }
+    #contact .heading p{
+        padding: 0 10px;
+        font-size: 9px;
+        line-height: 17px;
+    }
+    #contact .contact_form{
+        padding: 20px 0px;
+    }
+    #contact .contact_form input{
+        font-size: 14px;
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+    #contact .contact_form input:nth-child(1),
+    #contact .contact_form input:nth-child(2){
+        width: 250px;
+    }
+    #contact .contact_form input:nth-child(3),
+    #contact .contact_form input:nth-child(4){
+        width: 350px;
+    }
+    #contact .contact_form button{
+        padding: 11px 40px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    #contact .contact_last h6{
+        font-size: 9px;
+        padding: 24px 0px;
+    }
+}
+/* *CONTACT SECTION ENDS*/
